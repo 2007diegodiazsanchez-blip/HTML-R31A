@@ -1,0 +1,44 @@
+
+    body {
+            font-family: Arial, sans-serif; /* Tipo de letra */
+            margin: 20px; /* Espacio exterior */
+        }
+
+        h1 {
+            color: rgb(0, 0, 0); /* Color del título principal */
+            text-align: center; /* Centrado */
+        }
+
+        h2 {
+           text-align: center;
+            color: rgb(0, 0, 0); /* Color de subtítulos */
+        }
+
+        p {
+            text-align: center;
+            font-size: 16px; /* Tamaño del texto */
+        }
+
+        table {
+            
+            background-color: aqua;
+            width: 50%; /* Ancho de la tabla */
+            border-collapse: collapse; /* Quita espacios entre bordes */
+            margin-bottom: 20px; /* Espacio debajo */
+            margin: auto;
+        }
+
+        th, td {
+            border: 1px solid black; /* Bordes */
+            padding: 10px; /* Espacio de dentro */
+            text-align: center; /* Texto centrado */
+        }
+
+        th {
+            background-color:rgb(6, 139, 139); /* Color de cabecera */
+         }
+        
+
+   table, th, td {
+  border: 1px solid black;
+}
